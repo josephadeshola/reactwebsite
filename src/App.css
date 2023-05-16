@@ -1,0 +1,268 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+.navbar {
+  /* position: absolute; */
+  z-index: 1;
+  background-color: white !important;
+  box-shadow: 0 0  3px;
+}
+
+.dropbtn {
+  
+  background-color: white !important;
+  animation-name: scale-up-ver-center;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+   
+}
+
+.navbar-nav {
+  margin-left: 0pc !important;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  height: 50% !important;
+}
+
+.dropdown button {
+
+  font-weight: 500;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white !important;
+  min-width: 160px;
+  height: 130px;
+  box-shadow:0 0 3px rgb(231, 227, 227);
+  z-index: 1;
+}
+.dropdown-contents{
+  width: 7pc;
+  /* background-color: #f1f1f1; */
+  display: none;
+  position: absolute;
+  min-width: red;
+  z-index: 1;
+}
+.dropdown-contents a{
+  text-align: center !important;
+  font-size: 13px;
+  color: black;
+ text-decoration: none; 
+ display: block;
+ padding:8px 10px ;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown-contents {
+  display: block;
+}
+
+#offcanvasNavbar{
+
+  height: 80vh;
+}
+.caro{
+ margin-top: 88px;
+ width: 100%;
+ height: 95vh;
+   
+}
+.caroimg{
+  height: 94vh;
+}
+.caroimg1{
+  height: 72vh;
+}
+h1{
+  position: absolute;
+  top: 25%;
+  font-weight: 700;
+  font-size: 3pc !important;
+  left: 9%;
+}
+.joinbtn{
+  width: 12pc;
+  font-family: monospace;
+  height: 3pc;
+  font-size: 15px;
+  margin-top: 4pc;
+  font-weight: 700;
+}
+.images{
+  height: 2pc;
+}
+.cardText{
+  display: flex;
+  justify-content: space-between;
+}
+h2{
+  margin-top: 10pc;
+  
+}
+.imagebtn{
+  width: 12pc ;
+  font-family: monospace ;
+  height: 3pc;
+  font-size: 15px;
+  font-weight: 700;
+}
+.sideImg{
+  height: 27pc;
+}
+.lastInfo{
+  display: flex;
+  gap:5pc ;
+  font-family: monospace;
+}
+.sideLogo{
+  display: flex;
+  justify-content: space-around;
+}
+.lastcontainer{
+  height: 50pc !important;
+  background-color: black;
+}
+
+@media (max-width:600px) {
+  .caro{
+    margin-top: 77px !important;
+    height: 50vh;
+   }
+  .caroimg{
+    height: 30vh;
+  }
+  .caroimg1{
+    margin-top: 3pc !important;
+    height: 24vh;
+  }
+
+  .blueColro{
+    
+    width: 100%;
+    height: 5pc;
+    background:linear-gradient(rgb(0, 102, 255),rgb(112, 182, 248)) !important;
+  }
+  h1{
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px !important;
+    left: 2%;
+  }
+  .joinbtn{
+    width: 12pc;
+    font-family: monospace;
+    height: 3pc;
+    margin-top: 4pc;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .images{
+    height: 2pc;
+  }
+  .gridImage{
+    display: grid;
+    gap: 1pc;
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+  .sideImg{
+    height: 18pc;
+  }
+  h2{
+     text-align: center;
+  }
+  .p1{
+    text-align: center !important;
+  }
+  h2{
+    margin-top: 5pc;
+    
+  }
+  .lastInfo{
+    display: grid;
+    gap:1pc ;
+    font-size: 17px;
+    /* margin-left: -6pc; */
+    font-family: monospace;
+  }
+  .sideLogo{
+    display: grid;
+    margin-left: -11pc;
+    justify-content: space-around;
+  }
+  .lastcontainer{
+    float: left;
+    height: 80pc !important;
+    background-color: black;
+  }
+}
