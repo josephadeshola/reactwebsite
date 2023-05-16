@@ -266,3 +266,192 @@ h2{
     background-color: black;
   }
 }
+
+@media (max-width:320px) {
+  .caro{
+    margin-top: 77px !important;
+    height: 50vh;
+    width: 120% !important;
+   }
+  .caroimg{
+    height: 30vh;
+  }
+  .caroimg1{
+    margin-top: 3pc !important;
+    height: 24vh;
+  }
+
+  .blueColro{
+    
+    width: 120%;
+    height: 5pc;
+    background:linear-gradient(rgb(0, 102, 255),rgb(112, 182, 248)) !important;
+  }
+  h1{
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 33px !important;
+    left: 2%;
+  }
+  .joinbtn{
+    width: 12pc;
+    font-family: monospace;
+    height: 3pc;
+    margin-top: 4pc;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .images{
+    height: 2pc;
+  }
+  .gridImage{
+    display: grid;
+    gap: 1pc;
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .all{
+    width: 120% !important;
+  }
+  .sideImg{
+    height: 18pc;
+  }
+  h2{
+     text-align: center;
+     font-size: 28px;
+  margin-left: 4pc !important;
+  }
+  #htwo{
+    margin-left: -4px !important;
+  }
+  .divImg{
+    margin-left: -9px !important;
+  }
+  #cardbody{
+    width: 113% !important;
+  }
+  .bottodiv{
+    width: 120% !important;
+  }
+  .p1{
+    text-align: center !important;
+  }
+  h2{
+    margin-top: 5pc;
+    margin-left: -3px;
+  }
+  .lastInfo{
+    display: grid;
+    gap:1pc ;
+    font-size: 17px;
+    /* margin-left: 3pc; */
+    font-family: monospace;
+  }
+  .sideLogo{
+    display: grid;
+    margin-left: -9pc;
+    justify-content: space-around;
+  }
+  .lastcontainer{
+    float: left;
+    width: 120% !important;
+    height: 80pc !important;
+    background-color: black;
+  }
+}
+@media (max-width:375px) {
+  .caro{
+    margin-top: 77px !important;
+    height: 50vh;
+    width: 120% !important;
+   }
+  .caroimg{
+    height: 30vh;
+  }
+  .caroimg1{
+    margin-top: 3pc !important;
+    height: 24vh;
+  }
+
+  .blueColro{
+    
+    width: 120%;
+    height: 5pc;
+    background:linear-gradient(rgb(0, 102, 255),rgb(112, 182, 248)) !important;
+  }
+  h1{
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px !important;
+    left: 2%;
+  }
+  .joinbtn{
+    width: 12pc;
+    font-family: monospace;
+    height: 3pc;
+    margin-top: 4pc;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .images{
+    height: 2pc;
+  }
+  .gridImage{
+    display: grid;
+    gap: 1pc;
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .all{
+    width: 120% !important;
+  }
+  .sideImg{
+    height: 18pc;
+  }
+  h2{
+     text-align: center;
+     font-size: 28px;
+  margin-left: 4pc !important;
+  }
+  #htwo{
+    margin-left: 3px !important;
+  }
+  .divImg{
+    margin-left: 9px !important;
+  }
+  #cardbody{
+    width: 113% !important;
+  }
+  .bottodiv{
+    width: 120% !important;
+  }
+  .p1{
+    text-align: center !important;
+  }
+  h2{
+    margin-top: 5pc;
+    margin-left: -3px;
+  }
+  .lastInfo{
+    display: grid;
+    gap:1pc ;
+    font-size: 17px;
+    /* margin-left: 3pc; */
+    font-family: monospace;
+  }
+  .sideLogo{
+    display: grid;
+    margin-left: -9pc;
+    justify-content: space-around;
+  }
+  .lastcontainer{
+    float: left;
+    width: 120% !important;
+    height: 80pc !important;
+    background-color: black;
+  }
+}

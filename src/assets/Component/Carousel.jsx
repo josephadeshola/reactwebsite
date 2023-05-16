@@ -11,7 +11,7 @@ const Carousel = () => {
             <div className="carousel-item active">
               <div className="border border-1 blueColro "></div>
               <img
-                src="\image\Hero-image-1.webp"
+                src="\dist\image\Hero-image-1.webp"
                 className="d-block w-100 caroimg"
                 alt="..."
               />
@@ -23,7 +23,7 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="\image\HGCP-2023-Banner-2.png"
+                src="\dist\image\HGCP-2023-Banner-2.png"
                 className="d-block w-100 mt-3  caroimg1"
                 alt="..."
               />

@@ -30,12 +30,12 @@ function App() {
       </div>
       <h2 className="text-center mt-5 mb-4 fw-bold text-primary">Plug in!</h2>
 
-      <div className="d-md-flex d-grid justify-content-between px-5">
+      <div className="d-md-flex divImg d-grid justify-content-between px-5">
         <div className="col-6 ">
-          <img className="sideImg" src="\image\MMI.svg" alt="" />
+          <img className="sideImg" src="\dist\image\MMI.svg" alt="" />
         </div>
         <div className="">
-          <h2 className="text-dark fw-bolder ">SLA Newsletters </h2>
+          <h2 id="htwo" className="text-dark fw-bolder ">SLA Newsletters </h2>
           <p className="col-md-9 p1  col-12 ">
             Our newsletters give you access to exclusive resources, career
             opportunities and the motivation you need to help you achieve your
@@ -54,13 +54,13 @@ function App() {
         </div>
       </div>
 
-      <div className="d-md-flex mt-5 d-grid justify-content-between px-5">
+      <div className="d-md-flex divImg  mt-5 d-grid justify-content-between px-5">
         <div className="col-6 d-md-none d-block ">
-          <img className="sideImg" src="\image\HGCP.svg" alt="" />
+          <img className="sideImg" src="\dist\image\HGCP.svg" alt="" />
         </div>
 
         <div className="d-block d-md-none mt-5">
-          <h2 className="text-dark fw-bolder">High Growth Coaching Program </h2>
+          <h2 id="htwo" className="text-dark fw-bolder">High Growth Coaching Program </h2>
           <p className="col-md-9 p1  col-12 ">
             HGCP is a 3-month program designed to identify, support and fund the
             next generation of Nigeria’s brightest female entrepreneurs.
@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div className="d-none d-md-block mt-5 ">
-          <h2 className="text-dark fw-bolder d-none d-md-block ">
+          <h2 id="htwo" className="text-dark fw-bolder d-none d-md-block ">
             High Growth Coaching Program{" "}
           </h2>
           <p className="col-md-9 p1  col-12 ">
@@ -94,16 +94,16 @@ function App() {
           </div>
         </div>
         <div className="col-6 d-none d-md-block ">
-          <img className="sideImg" src="\image\HGCP.svg" alt="" />
+          <img className="sideImg" src="\dist\image\HGCP.svg" alt="" />
         </div>
       </div>
 
-      <div className="d-md-flex d-grid mt-5 justify-content-between px-5">
+      <div className="d-md-flex divImg  d-grid mt-5 justify-content-between px-5">
         <div className="col-6 ">
-          <img className="sideImg" src="\image\slay-festival.svg" alt="" />
+          <img className="sideImg" src="\dist\image\slay-festival.svg" alt="" />
         </div>
         <div className="">
-          <h2 className="text-dark fw-bolder ">SLAY Festival </h2>
+          <h2 id="htwo" className="text-dark  fw-bolder ">SLAY Festival </h2>
           <p className="col-md-9 p1  col-12 ">
             SLAY Festival is a celebration of culture, innovation and business
             for African women. Learn from speakers, attend masterclasses, shop
@@ -123,8 +123,8 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-light mt-5 border py-5">
-        <h2 className="text-center mt-4 my-5 fw-bold text-primary">
+      <div className="bg-light bottodiv mt-5 border py-5">
+        <h2 id="htwo" className="text-center mt-4 my-5 fw-bold text-primary">
           Upcoming Events
         </h2>
         <div
@@ -157,7 +157,7 @@ function App() {
         <div className="sideLogo ">
           <img className="mt-3"
             style={{ height: "5pc" }}
-            src="\image\SLA_Logo__White.png"
+            src="\dist\image\SLA_Logo__White.png"
             alt=""
           />
           <div className="lastInfo text-light mt-3">
