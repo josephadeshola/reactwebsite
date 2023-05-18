@@ -257,7 +257,7 @@ h2{
   }
   .sideLogo{
     display: grid;
-    margin-left: -11pc;
+    /* margin-left: -11pc; */
     justify-content: space-around;
   }
   .lastcontainer{
@@ -346,7 +346,7 @@ h2{
     display: grid;
     gap:1pc ;
     font-size: 17px;
-    /* margin-left: 3pc; */
+ 
     font-family: monospace;
   }
   .sideLogo{
@@ -440,7 +440,7 @@ h2{
     display: grid;
     gap:1pc ;
     font-size: 17px;
-    /* margin-left: 3pc; */
+
     font-family: monospace;
   }
   .sideLogo{
